@@ -16,7 +16,7 @@ const Dashboard = () => {
                 <div className="col-sm-8 col-md-12 col-lg-12">
                     <h1 className="m-3 d-flex justify-content-center graph-heading">Monthly Sell Reports</h1>
                     <ResponsiveContainer width="90%" height={300}>
-                        <LineChart data={sellData} >
+                        <LineChart data={sellData} margin={{ top: 10, right: 0, left: 30, bottom: 0 }}>
                             <Line type="monotone" dataKey="month" stroke="#8884d8" />
                             <Line type="monotone" dataKey="sell" stroke="#8884d8" />
                             <CartesianGrid stroke="#ccc" />
@@ -30,10 +30,10 @@ const Dashboard = () => {
 
             <section className="row m-5">
                 <div className="col-sm-8 col-md-12 col-lg-12">
-                    <h1 className="m-3 d-flex justify-content-center graph-heading">Monthly Sell VS Revenue Reports</h1>
+                    <h1 className="m-3 d-flex justify-content-center graph-heading">Monthly Investment VS Revenue Reports</h1>
                     <ResponsiveContainer width="95%" height={300}>
-                        <AreaChart width={730} height={250} data={sellData}
-                            margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
+                        <AreaChart width="100%" height={250} data={sellData}
+                            margin={{ top: 10, right: 0, left: 30, bottom: 0 }}>
                             <defs>
                                 <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
                                     <stop offset="5%" stopColor="#8884d8" stopOpacity={0.8} />
@@ -48,7 +48,7 @@ const Dashboard = () => {
                             <YAxis />
                             <CartesianGrid strokeDasharray="3 3" />
                             <Tooltip />
-                            <Area type="monotone" dataKey="sell" stroke="#8884d8" fillOpacity={1} fill="url(#colorUv)" />
+                            <Area type="monotone" dataKey="investment" stroke="#8884d8" fillOpacity={1} fill="url(#colorUv)" />
                             <Area type="monotone" dataKey="revenue" stroke="#82ca9d" fillOpacity={1} fill="url(#colorPv)" />
                         </AreaChart>
                     </ResponsiveContainer>
@@ -58,8 +58,8 @@ const Dashboard = () => {
             <section className="row">
                 <div className="col-sm-8 col-md-12 col-lg-12">
                     <h1 className="m-3 d-flex justify-content-center graph-heading">Monthly Investment vs Revenue Reports</h1>
-                    <ResponsiveContainer width="90%" height={300}>
-                        <BarChart width={730} height={250} data={sellData}>
+                    <ResponsiveContainer width="95%" height={300}>
+                        <BarChart width='100%' height={250} data={sellData} margin={{ top: 10, right: 0, left: 30, bottom: 0 }}>
                             <CartesianGrid strokeDasharray="3 3" />
                             <XAxis dataKey="month" />
                             <YAxis />
