@@ -28,13 +28,13 @@ const Home = () => {
 
             <section id="books-container">
                 <h1>What Customers Says</h1>
-                <div class="books-collections">
+                <div className="books-collections mb-2">
                     {
                         bookShow3.map((book, index) => <Book key={book.index} book={book} />)
                     }
                 </div>
                 <div className="d-flex justify-content-center">
-                    <Link to="/review" className="button">Show All Books <span className="arrow-icon"><i
+                    <Link to="/review" className="button">Show All Reviews <span className="arrow-icon"><i
                         className="fas fa-arrow-right"></i></span></Link>
                 </div>
             </section>
