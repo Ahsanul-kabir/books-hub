@@ -30,7 +30,7 @@ const Dashboard = () => {
 
             <section className="row m-5">
                 <div className="col-sm-8 col-md-12 col-lg-12">
-                    <h1 className="m-3 d-flex justify-content-center graph-heading">Monthly Sell VS Reviews Reports</h1>
+                    <h1 className="m-3 d-flex justify-content-center graph-heading">Monthly Sell VS Revenue Reports</h1>
                     <ResponsiveContainer width="95%" height={300}>
                         <AreaChart width={730} height={250} data={sellData}
                             margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
