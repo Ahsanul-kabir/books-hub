@@ -1,0 +1,43 @@
+[{
+        "name": "1984 by George Orwell",
+        "author": "George Orwell",
+        "rating": "5",
+        "image": "https://www.oberlo.com/media/1603897567-image39-1.jpg?fm=webp&w=1824&fit=max",
+        "review": "This Book is really good"
+    },
+    {
+        "name": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "rating": "4",
+        "image": "https://www.oberlo.com/media/1603897585-image12-1.jpg?fm=webp&w=1824&fit=max",
+        "review": "This Book is good"
+    },
+    {
+        "name": "The Kite Runner",
+        "author": "Khaled Hosseini",
+        "rating": "4.5",
+        "image": "https://www.oberlo.com/media/1603897583-image17-1.jpg?fm=webp&w=1824&fit=max",
+        "review": "Read this book and like it"
+    },
+    {
+        "name": "Harry Potter and the Philosopher’s Stone",
+        "author": "J.K. Rowling",
+        "rating": "4.9",
+        "image": "https://www.oberlo.com/media/1603897577-image22-1.jpg?fm=webp&w=1824&fit=max",
+        "review": "Anyone can buy I like it"
+    },
+    {
+        "name": "Slaughterhouse-Five",
+        "author": "Kurt Vonnegut",
+        "rating": "3",
+        "image": "https://www.oberlo.com/media/1603897566-image41.jpg?fm=webp&w=1824&fit=max",
+        "review": "This Book is not good"
+    },
+    {
+        "name": "The Lion, the Witch, and the Wardrobe",
+        "author": "C.S. Lewis",
+        "rating": "5",
+        "image": "https://www.oberlo.com/media/1603897587-image5.jpg?fm=webp&w=1824&fit=max",
+        "review": "This Book is really good"
+    }
+]

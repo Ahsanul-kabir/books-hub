@@ -5,18 +5,18 @@ import './Header.css';
 const Header = () => {
     return (
         <nav>
-            <div class="logo">Books Hub</div>
+            <div className="logo">Books Hub</div>
             <input type="checkbox" id="click" />
-            <label for="click" class="menu-btn">
-                <i class="fas fa-bars"></i>
+            <label htmlFor="click" className="menu-btn">
+                <i className="fas fa-bars"></i>
             </label>
             <ul>
-                <li><Link class="active" to="/">Home</Link></li>
+                <li><Link className="active" to="/">Home</Link></li>
                 <li><Link to="/review">Review</Link></li>
                 <li><Link to="/dashboard">Dashboard</Link></li>
                 <li><Link to="/blogs">Blogs</Link></li>
                 <li><Link to="/about">About</Link></li>
-                <li><Link to="/"><i class="fas fa-search"></i></Link></li>
+                <li><Link to="/"><i className="fas fa-search"></i></Link></li>
             </ul>
         </nav>
     );
