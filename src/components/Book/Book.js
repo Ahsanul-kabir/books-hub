@@ -1,14 +1,13 @@
 import React from 'react';
 
 const Book = ({ book }) => {
-    const { name, author, image, rating, review } = book
+    const { name, image, rating, review } = book
     return (
         <article class="product-item">
             <div class="product-img">
                 <img src={image} alt="" />
             </div>
-            <h1 title={name}>{name.slice(0, 15) + '...'}</h1>
-            <h2>Author : {author}</h2>
+            <h1 title={name}>{name.slice(0, 7) + '...'}</h1>
             <div class="books-rating">
                 <div class="stars">
                     <i class="icon-color fas fa-star"></i>

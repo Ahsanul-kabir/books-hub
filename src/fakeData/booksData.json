@@ -1,43 +1,37 @@
 [{
-        "name": "1984 by George Orwell",
-        "author": "George Orwell",
+        "name": "Hasan Ali",
         "rating": "5",
-        "image": "https://www.oberlo.com/media/1603897567-image39-1.jpg?fm=webp&w=1824&fit=max",
+        "image": "https://i.ibb.co/jMNDp2T/brandon-cooper.jpg",
         "review": "This Book is really good"
     },
     {
-        "name": "The Lord of the Rings",
-        "author": "J.R.R. Tolkien",
+        "name": "Rafiq Khan",
         "rating": "4",
-        "image": "https://www.oberlo.com/media/1603897585-image12-1.jpg?fm=webp&w=1824&fit=max",
+        "image": "https://i.ibb.co/JzYt2rJ/1426961b349a6bff1926b39b6cca7764.jpg",
         "review": "This Book is good"
     },
     {
-        "name": "The Kite Runner",
-        "author": "Khaled Hosseini",
+        "name": "Khalil Khan",
         "rating": "4.5",
-        "image": "https://www.oberlo.com/media/1603897583-image17-1.jpg?fm=webp&w=1824&fit=max",
+        "image": "https://i.ibb.co/V9nH8fZ/9f74535608abc523efe3eb37a9a30a54.jpg",
         "review": "Read this book and like it"
     },
     {
-        "name": "Harry Potter and the Philosopher’s Stone",
-        "author": "J.K. Rowling",
+        "name": "Zahid Khan",
         "rating": "4.9",
-        "image": "https://www.oberlo.com/media/1603897577-image22-1.jpg?fm=webp&w=1824&fit=max",
+        "image": "https://i.ibb.co/FJ9LWCJ/mujiki-na-avu-028.jpg",
         "review": "Anyone can buy I like it"
     },
     {
-        "name": "Slaughterhouse-Five",
-        "author": "Kurt Vonnegut",
+        "name": "Rizwan Khan",
         "rating": "3",
-        "image": "https://www.oberlo.com/media/1603897566-image41.jpg?fm=webp&w=1824&fit=max",
+        "image": "https://i.ibb.co/19WJd71/fake-2.webp",
         "review": "This Book is not good"
     },
     {
-        "name": "The Lion, the Witch, and the Wardrobe",
-        "author": "C.S. Lewis",
+        "name": "Shahid Ullah",
         "rating": "5",
-        "image": "https://www.oberlo.com/media/1603897587-image5.jpg?fm=webp&w=1824&fit=max",
+        "image": "https://i.ibb.co/s3mL29k/img1.jpg",
         "review": "This Book is really good"
     }
 ]

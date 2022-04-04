@@ -33,7 +33,7 @@ const Home = () => {
                         bookShow3.map((book, index) => <Book key={book.index} book={book} />)
                     }
                 </div>
-                <div className="d-flex justify-content-center">
+                <div className="d-flex justify-content-center mb-4">
                     <Link to="/review" className="button">Show All Reviews <span className="arrow-icon"><i
                         className="fas fa-arrow-right"></i></span></Link>
                 </div>
