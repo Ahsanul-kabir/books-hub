@@ -2,42 +2,42 @@
         "name": "Hasan Ali",
         "bookName": "1984 by George Orwell",
         "rating": "5",
-        "image": "https://i.ibb.co/jMNDp2T/brandon-cooper.jpg",
+        "image": "https://i.ibb.co/hfm9LCS/man-photo.png",
         "review": "This Book is really good"
     },
     {
         "name": "Rafiq Khan",
         "bookName": "The Lord of the Rings",
         "rating": "4",
-        "image": "https://i.ibb.co/JzYt2rJ/1426961b349a6bff1926b39b6cca7764.jpg",
+        "image": "https://i.ibb.co/hfm9LCS/man-photo.png",
         "review": "This Book is good"
     },
     {
         "name": "Khalil Khan",
         "bookName": "The Kite Runner",
         "rating": "4.5",
-        "image": "https://i.ibb.co/V9nH8fZ/9f74535608abc523efe3eb37a9a30a54.jpg",
+        "image": "https://i.ibb.co/hfm9LCS/man-photo.png",
         "review": "Read this book and like it"
     },
     {
         "name": "Zahid Khan",
         "bookName": "Harry Potter and the Philosopher’s Stone",
         "rating": "4.9",
-        "image": "https://i.ibb.co/FJ9LWCJ/mujiki-na-avu-028.jpg",
+        "image": "https://i.ibb.co/hfm9LCS/man-photo.png",
         "review": "Anyone can buy I like it"
     },
     {
         "name": "Rizwan Khan",
         "bookName": "Slaughterhouse-Five",
         "rating": "3",
-        "image": "https://i.ibb.co/19WJd71/fake-2.webp",
+        "image": "https://i.ibb.co/hfm9LCS/man-photo.png",
         "review": "This Book is not good"
     },
     {
         "name": "Shahid Ullah",
         "bookName": "The Lion, the Witch, and the Wardrobe",
         "rating": "5",
-        "image": "https://i.ibb.co/s3mL29k/img1.jpg",
+        "image": "https://i.ibb.co/hfm9LCS/man-photo.png",
         "review": "This Book is really good"
     }
 ]
